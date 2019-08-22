@@ -17,6 +17,7 @@
                 if($point==11) echo "第{$index}張牌是梅花J<br>";
                 else if($point==12) echo "第{$index}張牌是梅花Q<br>";
                 else if($point==13) echo "第{$index}張牌是梅花K<br>";
+                else if($point==1) echo "第{$index}張牌是梅花A<br>";
                 else
                 echo "第{$index}張牌是梅花{$point}<br>";
                 break;
@@ -24,6 +25,7 @@
                 if($point==11) echo "第{$index}張牌是方塊J<br>";
                 else if($point==12) echo "第{$index}張牌是方塊Q<br>";
                 else if($point==13) echo "第{$index}張牌是方塊K<br>";
+                else if($point==1) echo "第{$index}張牌是方塊A<br>";
                 else
                 echo "第{$index}張牌是方塊{$point}<br>";
                 break;
@@ -31,6 +33,7 @@
                 if($point==11) echo "第{$index}張牌是愛心J<br>";
                 else if($point==12) echo "第{$index}張牌是愛心Q<br>";
                 else if($point==13) echo "第{$index}張牌是愛心K<br>";
+                else if($point==1) echo "第{$index}張牌是愛心A<br>";
                 else
                 echo "第{$index}張牌是愛心{$point}<br>";
                 break;
@@ -38,6 +41,7 @@
                 if($point==11) echo "第{$index}張牌是黑桃J<br>";
                 else if($point==12) echo "第{$index}張牌是黑桃Q<br>";
                 else if($point==13) echo "第{$index}張牌是黑桃K<br>";
+                else if($point==1) echo "第{$index}張牌是黑桃A<br>";
                 else
                 echo "第{$index}張牌是黑桃{$point}<br>";
                 break;
